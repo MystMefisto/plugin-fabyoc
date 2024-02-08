@@ -47,7 +47,7 @@ function fabyoc_clases_post_type() {
 		'label'                 => __( 'Clase', 'fabyoc' ),
 		'description'           => __( 'Clases para el Sitio Web', 'fabyoc' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail' ),
+		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
 		'hierarchical'          => true, // true = posts , false = paginas
 		'public'                => true,
 		'show_ui'               => true,
